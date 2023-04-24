@@ -78,7 +78,7 @@ class ForeGroundService : Service() {
                         scheduleNotification(millisUntilFinished)
                     }
                 }
-
+//seild
                 override fun onFinish() {
                     if (list.size>0) {
                         //prefUtils.remove("alertList")

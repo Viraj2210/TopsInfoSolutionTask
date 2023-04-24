@@ -65,12 +65,12 @@ class AddTask : AppCompatActivity() {
         }
 
         activityAddTaskBinding.tvSubmit.setOnClickListener {
-           /* if (isEdit) {
+            if (isEdit) {
                 list.get(position).title = activityAddTaskBinding.etTitle.text.toString()
                 list.get(position).desc = activityAddTaskBinding.etDesc.text.toString()
                 list.get(position).millis = millis
 
-            }else{*/
+            }else{
 
                 var alertModel = AlertModel(
                     activityAddTaskBinding.etTitle.text.toString(),
@@ -83,7 +83,7 @@ class AddTask : AppCompatActivity() {
                 finish()
             }
            //
-       // }
+        }
 
 
 
